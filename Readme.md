@@ -2,7 +2,7 @@
 
 A comprehensive parallel monitoring system designed for educational and scientific purposes. This project demonstrates real-time system monitoring capabilities across multiple security domains.
 
-## 📋 Project Overview
+## Project Overview
 
 This monitoring system consists of three independent modules that work together to provide comprehensive system surveillance:
 
@@ -12,7 +12,7 @@ This monitoring system consists of three independent modules that work together 
 
 All modules run simultaneously in parallel threads, providing real-time monitoring without interfering with each other.
 
-## 🔧 System Architecture
+## System Architecture
 
 ### Core Components
 
@@ -62,7 +62,7 @@ The system is built around three main monitoring modules:
 - Identifying unauthorized network services
 - Monitoring research data transmission channels
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -143,7 +143,7 @@ Leo - Completed
 - Timestamps show exact monitoring times
 - Status messages confirm successful completion
 
-## 🔬 Educational Value
+## Educational Value
 
 ### Computer Science Concepts Demonstrated
 
@@ -174,7 +174,7 @@ Leo - Completed
 - **Data Integrity**: File system monitoring for research data
 - **Network Security**: Port scanning for vulnerability assessment
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 ### Port Scanning Range
 By default, the scanner checks ports 1-1024. This can be modified in the code:
@@ -188,21 +188,21 @@ Each monitor runs every 2 seconds. Modify the `Sleep(2000)` values to change int
 ### File Monitoring Limits
 The system tracks up to 50,000 files. Adjust `MAX_FILES` constant if needed.
 
-## 📊 Performance Considerations
+## Performance Considerations
 
 - **Memory Usage**: Optimized for systems with 4GB+ RAM
 - **CPU Impact**: Low to moderate CPU usage during normal operation
 - **Network Impact**: Minimal network traffic during port scanning
 - **Thread Management**: Uses controlled threading to prevent system overload
 
-## 🛡️ Security Notes
+## Security Notes
 
 - Run with administrator privileges for comprehensive monitoring
 - Port scanning should only be performed on authorized networks
 - Monitor logs may contain sensitive system information
 - Use responsibly in educational/research environments only
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project. Students and researchers are welcome to:
 - Extend monitoring capabilities
@@ -210,11 +210,11 @@ This is an educational project. Students and researchers are welcome to:
 - Add new monitoring modules
 - Enhance the user interface
 
-## 📝 License
+## License
 
 Educational use only. This project is designed for learning purposes and scientific research.
 
-## 👥 Authors
+## Authors
 
 - **Jorge Luis Herrera Cecilia**: USB/Filesystem monitoring implementation
 - **Fabian A Almeida Martinez**: Memory/Process monitoring system  
